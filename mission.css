@@ -1,0 +1,94 @@
+.done {
+    text-decoration: line-through;
+    color: gray;
+}
+
+form {
+    display: flex;
+    width: 500px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: 0px 4px 20px;
+    margin-left: 500px;
+
+}
+
+input {
+    height: 25px;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-right: 20px;
+}
+
+#addbtn {
+    border-radius: 10px;
+    background-color: white;
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+}
+
+#addbtn:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+table {
+    border: 1px solid black;
+    margin-top: 50px;
+    width: 800px;
+    margin-left: 350px;
+    text-align: center;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    height: 40px;
+}
+
+.deletebtn {
+    border-radius: 10px;
+    background-color: white;
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.deletebtn:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+.editbtn {
+    border-radius: 10px;
+    background-color: white;
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.editbtn:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+.donebtn {
+    border-radius: 10px;
+    background-color: white;
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.donebtn:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}

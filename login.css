@@ -1,0 +1,42 @@
+form {
+    display: grid;
+    width: 220px;
+    height: 260px;
+    padding: 20px;
+    border-radius: 30px;
+    margin-left: 600px;
+    margin-top: 100px;
+    box-shadow: 0px 4px 20px black;
+}
+
+input {
+    width: 200px;
+    margin-top: 0px;
+    height: 25px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+label {
+    margin-bottom: 0px;
+    height: 0px;
+}
+
+#registbtn {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 70px;
+}
+
+#registbtn:hover {
+    background-color: black;
+    color: white;
+    transition: 0.2s;
+}
+
+#error {
+    color: red;
+}
